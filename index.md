@@ -2,13 +2,13 @@
 
 ---
 
-### Category Name 1 
+###  
 
-[Project 1 Title](/sample_page)
+[Bank Loan Approval Using Artificial Neural Nets](https://sonashine.github.io/projects/Bank-Loan-Approval-Using-Artificial-Neural-Nets.html)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Project Predicting stock prices](https://sonashine.github.io/projects/Project-Predicting-stock-prices)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
