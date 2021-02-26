@@ -4,11 +4,11 @@
 
 ###  
 
-[Bank Loan Approval Using Artificial Neural Nets](file:///C:/Users/sonak/Documents/GitHub/sonashine.github.io/projects/Bank%20Loan%20Approval%20Using%20Artificial%20Neural%20Nets.html)
+[Bank Loan Approval Using Artificial Neural Nets](http://sonashine.github.io/projects/Bank%20Loan%20Approval%20Using%20Artificial%20Neural%20Nets.html)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project Predicting stock prices](file:///C:/Users/sonak/Documents/GitHub/sonashine.github.io/projects/Project%20Predicting%20stock%20prices.html)
+[Project Predicting stock prices](http://sonashine.github.io/projects/Project%20Predicting%20stock%20prices.html)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
