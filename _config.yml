@@ -1,5 +1,10 @@
+
+
 title: Sonakshi Sharma # your name (or website title) here
-#logo: "/images/logo.png?raw=true" # your photo (or logo) here
+baseurl: "/projects"
+url: "https://sonashine.github.io"
+markdown: kramdown
+exclude: [vendor]
 description: > # your text below (remove <br> elements if you don't need line breaks)
   
   <br><br>
