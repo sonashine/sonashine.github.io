@@ -1,7 +1,7 @@
 
 
 title: Sonakshi Sharma # your name (or website title) here
-baseurl: "/projects"
+baseurl: "/"
 url: "https://sonashine.github.io."
 markdown: kramdown
 exclude: [vendor]
