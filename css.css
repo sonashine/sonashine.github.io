@@ -1,5 +1,6 @@
 body {
   background-color: lightblue;
+  opacity: 0.3;
 }
 
 h1 {
@@ -10,4 +11,6 @@ h1 {
 p {
   font-family: garamond;
   font-size: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
 }
