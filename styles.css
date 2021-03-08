@@ -1,0 +1,24 @@
+body {
+  background-color: lightblue;
+  opacity: 0.3;
+}
+
+h1 {
+  font-family: garamond;
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: garamond;
+  font-size: 20px;
+}
+
+a {
+    font-family: garamond;
+    font-size: 20px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+  }
