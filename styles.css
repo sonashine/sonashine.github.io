@@ -16,6 +16,7 @@ h1 {
 p {
   font-family: garamond;
   font-size: 20px;
+  color: black;
 }
 
 a {
@@ -24,5 +25,4 @@ a {
     color: black;
     border: 2px rgb(31, 15, 255);
     border-radius: 5px;
-    text-decoration: none;
   }
