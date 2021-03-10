@@ -21,6 +21,10 @@ p {
 a {
     
     font-size: 20px;
-    border: 2px rgb(31, 15, 255);
+    border: 2px rgb(0,63,66);
     border-radius: 5px;
+  }
+
+  .module {
+    cursor: url('path-to-image.png'), auto;	
   }
