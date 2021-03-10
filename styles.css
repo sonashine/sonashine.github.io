@@ -3,7 +3,8 @@ body {
   opacity: 0.3;
   text-align: center;
   font-family: garamond;
-  word-spacing: 10px;
+  word-spacing: 5px;
+  padding: 25px 50px;
 }
 
 h1 {
