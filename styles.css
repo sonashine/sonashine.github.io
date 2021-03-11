@@ -6,6 +6,13 @@ body {
   padding: 50px 50px;
 }
 
+.header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+  color: black;
+}
+
 h1 {
   
   color: black;
