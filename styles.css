@@ -24,6 +24,9 @@ p {
   font-size: 20px;
   color: black;
   text-decoration: none;
+  border: 2px rgb(0,63,66);
+  border-radius: 5px;
+  border-width: 1px;
 }
 
 a { 
