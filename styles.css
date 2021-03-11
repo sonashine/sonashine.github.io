@@ -16,14 +16,14 @@ p {
   font-family: garamond;
   font-size: 20px;
   color: black;
-  text-decoration: blue;
+  text-decoration: none;
 }
 
-a {
-    
+a { 
     font-size: 20px;
     border: 2px rgb(0,63,66);
     border-radius: 5px;
+    border-width: 1px;
   }
 
   .module {
