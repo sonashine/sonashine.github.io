@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-  background-color: #F1F1F1;
+  background-color: white;
   text-align: center;
   padding: 20px;
   color: black;
@@ -34,6 +34,7 @@ a {
     border: 2px rgb(0,63,66);
     border-radius: 5px;
     border-width: 1px;
+    color: black
   }
 
   .module {
