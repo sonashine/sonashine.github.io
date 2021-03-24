@@ -37,6 +37,8 @@ a {
 
   }
 
-  .module {
-    cursor: url('sonashine.github.io\high-voltage.png'), auto;	
+
+  .custom-cur {
+    cursor: url('C:\sonashine.github.io\high-voltage.svg\Users\sonak\Documents\GitHub'), auto;
+    
   }
