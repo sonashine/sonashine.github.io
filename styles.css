@@ -43,7 +43,128 @@ a {
   }
 
 
-  .custom-cur {
-    cursor: url('https://github.com/sonashine/sonashine.github.io/blob/master/high-voltage.svg'), auto;
-    
+.custom-cur {
+  cursor: url('https://github.com/sonashine/sonashine.github.io/blob/master/high-voltage.svg'), auto;
+}
+
+$artworkWidth: 300px;
+$artworkHeight: 250px;
+$saturnRingSize: 100px;
+$saturnRingWidth: 17px;
+$saturnRingSegments: 50;
+$saturnRingColor: #bfa884;
+
+%absolute {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.saturn {
+  @extend %absolute;
+  width: $artworkWidth;
+  height: $artworkHeight;
+  transform-style: preserve-3d;
+  transform-origin: 0 0;
+  transform: scale(2);
+
+  .saturn__background {
+    position: absolute;
+    left: 26px;
+    top: 55px;
+    transform-origin: 0 0;
+    transform: scale(0.5);
   }
+  
+  .saturn__planet__wrap {
+    position: absolute;
+    left: 106px;
+    top: 100px;
+    width: 110px;
+    height: 112px;
+    overflow: hidden;
+    border-radius: 50%;
+    background: white;
+
+    .saturn__planet {
+      position: absolute;
+      left: -80px;
+      top: -45px;
+      transform-origin: 0 0;
+      transform: scale(0.5);
+    }
+  }
+
+  .saturn__ring__wrap {
+    @extend %absolute;
+    width: $saturnRingSize;
+    height: $saturnRingSize;
+    border-radius: 50%;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    transform: translate3d(110px, 104px, 0) scale(3.1, 1.2) rotateX(62deg)
+      rotateY(-36deg) rotateZ(-10deg);
+
+    .saturn__ring {
+      @extend %absolute;
+      width: 100px;
+      height: 100px;
+      animation: spin 0.9s infinite linear;
+
+      .saturn__ring__part {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: $saturnRingWidth / 2;
+        width: 20px;
+        height: $saturnRingWidth;
+        margin: auto;
+        background: rgba($saturnRingColor, 0);
+        transform-origin: 50% $saturnRingSize / 2;
+        transform: translateY(-50%);
+
+        @for $i from 1 through $saturnRingSegments {
+          &:nth-of-type(#{$i}) {
+            transform: translateY(-50%)
+              rotate(360 / $saturnRingSegments * $i + 0deg);
+          }
+        }
+
+        @for $i from 1 through 3 {
+          &:nth-of-type(#{$i}) {
+            background: linear-gradient(
+              to left,
+              rgba($saturnRingColor, 0.3) 0%,
+              rgba($saturnRingColor, 0) 100%
+            );
+          }
+        }
+
+        @for $i from 4 through 6 {
+          &:nth-of-type(#{$i}) {
+            background: rgba($saturnRingColor, 0.3);
+          }
+        }
+
+        @for $i from 7 through 9 {
+          &:nth-of-type(#{$i}) {
+            background: linear-gradient(
+              to right,
+              rgba($saturnRingColor, 0.3) 0%,
+              rgba($saturnRingColor, 0) 100%
+            );
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
