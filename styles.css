@@ -52,10 +52,10 @@ body {
 }
 
 #saturn {
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   position: relative;
-  margin: 100px;
+  margin: auto;
   transform: rotateZ(-15deg);
 }
 
