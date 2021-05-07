@@ -31,14 +31,14 @@ p {
   
 }
 
-.a { 
+a { 
     font-size: 20px;
     color: black;
     text-decoration: none;
     border: 5px #bfa884;
     border-radius: 10px;
     text-align: center;
-  }
+}
 
 
 .custom-cur {
@@ -71,6 +71,7 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00181319', endColorstr='#00181319',GradientType=1 );
 
   transform: rotateX(75deg);
+  transform: rotate3d(1, 0, 0, 75deg); 
 }
 
 .planet {
