@@ -72,15 +72,18 @@ body {
 
   transform: rotateX(75deg);
   /*transform: rotate3d(1, 0, 0, 75deg); */
-  transform: rotateX(100deg) rotateY(15deg);
-	animation: move 3s
-	linear infinite;
+  /*transform: rotateX(100deg) rotateY(15deg);*/
+	animation: rotation 2s infinite linear;
 }
 
-@keyframes move{
-	to{
-		transform: rotateX(100deg) rotateY(15deg) rotateZ(360deg);
-	}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
 
 .planet {
   background: green;
