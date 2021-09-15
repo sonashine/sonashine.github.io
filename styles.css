@@ -20,7 +20,11 @@ h1 {
   text-align: center;
   
 }
-
+h3 {
+  color:black;
+  font-family: garamond;
+  text-align: center;
+}
 p {
   font-family: garamond;
   font-size: 20px;
