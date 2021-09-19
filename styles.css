@@ -124,13 +124,14 @@ body {
 
 :root 
 {
-    --dark-color: rgb(0,0,0);
-    --glossy-red: rgba(238, 17, 17, 1);
-    --hidden-red: rgba(238, 17, 17, 0);
-    --light-red: rgba(238, 17, 17, .5);
-    --paths-theme: var(--very-light-red) var(--glossy-red);
-    --planets-theme: var(--light-red) var(--light-red) var(--light-red) var(--glossy-red); 
-    --very-light-red: rgba(238, 17, 17, .25);
+    --dark-color: rgb(255, 255, 255);
+    --saturn-base: rgba(234,214,184);
+    --base-red: rgba(206,184,184);
+    --light-base: rgba(227,224,192);
+    --paths-theme: var(--very-light-base) var(--saturn-base) var(var(--light-base-depth));
+    --planets-theme: var(--light-base) var(--saturn-base) var(--base-red) var(--light-base-depth); 
+    --very-light-base: rgba(191,189,175);
+    --light-base-depth: rgba(206,206,206);
 }
 *
 {
@@ -151,8 +152,8 @@ body #solar-system
 {
     display: flex;
 
-    width: 100vw;
-    height: 100vh;
+    width: 95vw;
+    height: 45vh;
 
     -webkit-transform: skewX(-45deg);
        -moz-transform: skewX(-45deg);
@@ -188,18 +189,18 @@ section #sun
     -webkit-border-radius: 50%;
        -moz-border-radius: 50%;
             border-radius: 50%;
-            background: var(--glossy-red);
-            background: linear-gradient(135deg, var(--glossy-red) 20%, var(--hidden-red) 100%);
+            background: var(--saturn-base);
+            background: linear-gradient(135deg, var(--saturn-base) 20%, var(--base-red) 100%);
 
-    -webkit-background: linear-gradient(135deg, var(--glossy-red) 20%, var(--hidden-red) 100%);
-       -moz-background: linear-gradient(135deg, var(--glossy-red) 20%, var(--hidden-red) 100%);
-         -o-background: linear-gradient(135deg, var(--glossy-red) 20%, var(--hidden-red) 100%);
-        -ms-background: linear-gradient(135deg, var(--glossy-red) 20%, var(--hidden-red) 100%);
-            filter: drop-shadow(0 0 2rem var(--glossy-red)) blur(1px);
-    -webkit-filter: drop-shadow(0 0 2rem var(--glossy-red)) blur(1px);
-       -moz-filter: drop-shadow(0 0 2rem var(--glossy-red)) blur(1px);
-         -o-filter: drop-shadow(0 0 2rem var(--glossy-red)) blur(1px);
-        -ms-filter: drop-shadow(0 0 2rem var(--glossy-red)) blur(1px);
+    -webkit-background: linear-gradient(135deg, var(--glossy-red) 20%, var(--base-red) 100%);
+       -moz-background: linear-gradient(135deg, var(--glossy-red) 20%, var(--base-red) 100%);
+         -o-background: linear-gradient(135deg, var(--glossy-red) 20%, var(--base-red) 100%);
+        -ms-background: linear-gradient(135deg, var(--glossy-red) 20%, var(--base-red) 100%);
+            filter: drop-shadow(0 0 2rem var(--saturn-base))) blur(1px);
+    -webkit-filter: drop-shadow(0 0 2rem var(--saturn-base))) blur(1px);
+       -moz-filter: drop-shadow(0 0 2rem var(--saturn-base))) blur(1px);
+         -o-filter: drop-shadow(0 0 2rem var(--saturn-base))) blur(1px);
+        -ms-filter: drop-shadow(0 0 2rem var(--saturn-base))) blur(1px);
 }
 
 /* planets */
@@ -227,7 +228,7 @@ article #mercury
     -webkit-border-radius: 50%;
        -moz-border-radius: 50%;
             border-radius: 50%;
-    background: var(--hidden-red);
+    background: var(--base-red);
 
     justify-content: center;
     align-items: center;
@@ -256,7 +257,7 @@ article #venus
     -webkit-border-radius: 50%;
        -moz-border-radius: 50%;
             border-radius: 50%;
-    background: var(--hidden-red);
+    background: var(--base-red);
 
     justify-content: center;
     align-items: center;
@@ -285,7 +286,7 @@ article #earth
     -webkit-border-radius: 50%;
        -moz-border-radius: 50%;
             border-radius: 50%;
-    background: var(--hidden-red);
+    background: var(--base-red);
 
     justify-content: center;
     align-items: center;
@@ -358,11 +359,11 @@ article #mercury::after
             border-radius: inherit;
     background: var(--glossy-red);
 
-    -webkit-filter: drop-shadow(0 0 .3rem var(--light-red)) blur(.5px);
-       -moz-filter: drop-shadow(0 0 .3rem var(--light-red)) blur(.5px);
-         -o-filter: drop-shadow(0 0 .3rem var(--light-red)) blur(.5px);
-        -ms-filter: drop-shadow(0 0 .3rem var(--light-red)) blur(.5px);
-            filter: drop-shadow(0 0 .3rem var(--light-red)) blur(.5px);
+    -webkit-filter: drop-shadow(0 0 .3rem var(--light-base)) blur(.5px);
+       -moz-filter: drop-shadow(0 0 .3rem var(--light-base)) blur(.5px);
+         -o-filter: drop-shadow(0 0 .3rem var(--light-base)) blur(.5px);
+        -ms-filter: drop-shadow(0 0 .3rem var(--light-base)) blur(.5px);
+            filter: drop-shadow(0 0 .3rem var(--light-base)) blur(.5px);
 }
 
 /* planets trajectory's
@@ -479,15 +480,15 @@ section #mars-trajectory
 {
     from
     {
-        background-color: var(--glossy-red);
+        background-color: var(--saturn-base);
 
-        filter: drop-shadow(0 0 .3rem var(--light-red)) blur(.5px);
+        filter: drop-shadow(0 0 .3rem var(--light-base))) blur(.5px);
     }
     to
     {
         background-color: var(--dark-color);
 
-        filter: drop-shadow(0 0 0 var(--light-red)) blur(0);
+        filter: drop-shadow(0 0 0 var(--light-base)) blur(0);
     }
 }
 
