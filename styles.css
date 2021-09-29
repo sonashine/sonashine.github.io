@@ -52,6 +52,8 @@ body {
 }
 
 .saturn {
+  height: 100px;
+  width: 500px;
   text-align: center;
   display: flex;
 }
