@@ -19,7 +19,7 @@
 }
 body
 {
-    overflow: hidden;
+    overflow: scroll;
 
     background-color: var(--dark-color);
 }
