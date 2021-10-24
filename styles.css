@@ -85,7 +85,7 @@ body {
 }
     
 @keyframes blink {
-  50% {
+  20% {
     border-color: transparent
   }
 }
