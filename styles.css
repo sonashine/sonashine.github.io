@@ -62,7 +62,7 @@ body {
 }
 
 .wrapper {
-  height: 100vh;
+  height: 50vh;
   /*This part is important for centering*/
   display: flex;
   align-items: center;
@@ -85,7 +85,7 @@ body {
 }
     
 @keyframes blink {
-  20% {
+  50% {
     border-color: transparent
   }
 }
