@@ -3,7 +3,7 @@ body {
   text-align: center;
   font-family: garamond;
   word-spacing: 5px;
-  padding: 25px;
+  padding: 20px;
   text-decoration: none;
   overflow: scroll;
 }
@@ -62,25 +62,25 @@ body {
 }
 
 .wrapper {
-  height: 50vh;
+  max-height: 25vh;
   /*This part is important for centering*/
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
 }
 
 .typing-demo {
-  width: 18ch;
+  max-width: 18ch;
   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 3px solid;
+  border-right: 1px solid;
   font-family: monospace;
   font-size: 2em;
 }
 
 footer {
-  background-color: whitesmoke;
+  background-color: white;
   padding: 1.25rem;
   text-align: center;
   margin: 2rem 0 0;
@@ -98,3 +98,13 @@ footer {
   }
 }
 
+@media screen and (max-width: 420px) {
+  .typing-demo {
+    height: 37.5rem;
+    width: 23rem;
+  }
+  canvas {
+    height: 37.5rem;
+    width: 23rem;
+  }
+}
