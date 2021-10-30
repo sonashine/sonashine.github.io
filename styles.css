@@ -106,11 +106,14 @@ footer {
   canvas {
     height: 37.5rem;
     width: 23rem;
+    object-fit: contain;
   }
   #Matchy-Matchy {
-    width: 25%;
+    width: 100%;
+    object-fit: contain;
   }
-  #Matchy-Matchy-2.0 {
-    width: 25%;
+  #Matchy-Matchy-2 {
+    width: 100%;
+    object-fit: contain;
   }
 }
