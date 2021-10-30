@@ -3,7 +3,7 @@ body {
   text-align: center;
   font-family: garamond;
   word-spacing: 5px;
-  padding: 20px;
+  padding: 10px;
   text-decoration: none;
   overflow: scroll;
 }
@@ -62,7 +62,7 @@ body {
 }
 
 .wrapper {
-  max-height: 25vh;
+  max-height: 20vh;
   /*This part is important for centering*/
   display: flex;
   align-items: center;
@@ -109,10 +109,8 @@ footer {
   }
   #Matchy-Matchy {
     width: 100%;
-    height: 1.5 * 100%;
   }
   #Matchy-Matchy-2.0 {
     width: 100%;
-    height: 1.5 * 100%;
   }
 }
