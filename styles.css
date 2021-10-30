@@ -3,7 +3,7 @@ body {
   text-align: center;
   font-family: garamond;
   word-spacing: 5px;
-  padding: 10px;
+  padding: 15px;
   text-decoration: none;
   overflow: scroll;
 }
@@ -108,9 +108,9 @@ footer {
     width: 23rem;
   }
   #Matchy-Matchy {
-    width: 100%;
+    width: 50%;
   }
   #Matchy-Matchy-2.0 {
-    width: 100%;
+    width: 50%;
   }
 }
