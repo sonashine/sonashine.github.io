@@ -64,7 +64,7 @@ body {
 .wrapper {
   max-height: 25vh;
   /*This part is important for centering*/
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -100,11 +100,19 @@ footer {
 
 @media screen and (max-width: 420px) {
   .typing-demo {
-    height: 37.5rem;
-    width: 23rem;
+    height: 35rem;
+    width: 20rem;
   }
   canvas {
     height: 37.5rem;
     width: 23rem;
+  }
+  #Matchy-Matchy {
+    width: 100%;
+    height: 1.5 * 100%;
+  }
+  #Matchy-Matchy-2.0 {
+    width: 100%;
+    height: 1.5 * 100%;
   }
 }
