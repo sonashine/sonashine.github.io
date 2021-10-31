@@ -62,7 +62,7 @@ body {
 }
 
 .wrapper {
-  max-height: 25vh;
+  max-height: 50vh;
   /*This part is important for centering*/
   display: block;
   align-items: center;
