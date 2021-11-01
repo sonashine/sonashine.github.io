@@ -62,13 +62,12 @@ body {
 }
 
 .wrapper {
-  max-height: 50vh;
+  max-height: 100vh;
   /*This part is important for centering*/
-  display: block;
+  display: flex;
   align-items: center;
   justify-content: center;
-  object-fit: contain;
-  width: 100%;
+  
 }
 
 .typing-demo {
@@ -101,9 +100,33 @@ footer {
 }
 
 @media screen and (max-width: 420px) {
+  .wrapper{
+    object-fit: contain;
+    width: 100%;
+  }
+  canvas {
+    height: 37.5rem;
+    width: 23rem;
+    object-fit: contain;
+  }
+  #Matchy-Matchy {
+    width: 100%;
+    object-fit: contain;
+  }
+  #Matchy-Matchy-2 {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (max-width : 320px) {
   .typing-demo {
     height: 30rem;
     width: 20rem;
+  }
+  .wrapper {
+    object-fit: contain;
+    width: 100%;
   }
   canvas {
     height: 37.5rem;
