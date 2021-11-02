@@ -21,6 +21,11 @@ h1 {
   text-align: center;
   
 }
+
+h2 {
+  text-align: center;
+  display: inline;
+}
 h3 {
   color:black;
   font-family: garamond;
@@ -120,10 +125,7 @@ footer {
 }
 
 @media only screen and (max-width : 320px) {
-  .typing-demo {
-    height: 30rem;
-    width: 20rem;
-  }
+
   .wrapper {
     object-fit: contain;
     width: 100%;
