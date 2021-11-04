@@ -107,7 +107,7 @@ footer {
 @media screen and (max-width: 420px) {
   .wrapper{
     object-fit: contain;
-    width: 100%;
+    width: 90%;
   }
   canvas {
     height: 37.5rem;
@@ -128,7 +128,7 @@ footer {
 
   .wrapper {
     object-fit: contain;
-    width: 100%;
+    width: 90%;
   }
   canvas {
     height: 37.5rem;
