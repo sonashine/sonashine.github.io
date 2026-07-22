@@ -35,7 +35,7 @@ const projects = [
     image: "/projects/ANN.png",
     tags: ["Python", "TensorFlow/Keras", "Pandas", "NumPy"],
     demoLink: "./notebooks/Bank Loan Approval Using Artificial Neural Nets.html",
-    githubLink: "https://github.com/sonashine/your-bank-loan-repo",
+    githubLink: "https://github.com/sonashine/Bank-Loan-Approval-Using-Artificial-Neural-Networks",
   },
   {
     id: 4,
@@ -45,7 +45,7 @@ const projects = [
     image: "/projects/StockPrices.png",
     tags: ["Python", "Scikit-learn", "Pandas", "NumPy"],
     demoLink: "./notebooks/Project Predicting stock prices.html",
-    githubLink: "https://github.com/sonashine/your-tesla-repo",
+    githubLink: "https://github.com/sonashine/Stock-Prices-predictor",
   },
     {
     id: 5,
