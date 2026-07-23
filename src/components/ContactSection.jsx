@@ -5,21 +5,35 @@ import {
   Send,
   User,
 } from "lucide-react";
-import { useState } from "react";
+import emailjs from "@emailjs/browser";
+import { useRef, useState } from "react";
 
 export const ContactSection = () => {
+  const form = useRef();
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     setIsSubmitting(true);
 
-    setTimeout(() => {
-      alert("Message sent! Thank you for your message.");
-      setIsSubmitting(false);
-    }, 1500);
-  };
+    try {
+        await emailjs.sendForm(
+        "service_ups7xge",
+        "template_z81dndo",
+        form.current,
+        "3-XFBOq078C8irZwW"
+        );
+
+        alert("Message sent successfully!");
+        form.current.reset();
+    } catch (error) {
+        console.error(error);
+        alert("Failed to send message.");
+    }
+
+  setIsSubmitting(false);
+};
 
   return (
     <section id="contact" className="py-24 px-4 relative bg-secondary/30">
@@ -93,7 +107,11 @@ export const ContactSection = () => {
               Send a Message
             </h3>
 
-            <form className="space-y-6" onSubmit={handleSubmit}>
+            <form
+                ref={form}
+                className="space-y-6"
+                onSubmit={handleSubmit}
+                >
               <div>
                 <label
                   htmlFor="name"

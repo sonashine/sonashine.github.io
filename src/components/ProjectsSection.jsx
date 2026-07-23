@@ -6,12 +6,14 @@ const projects = [
   {
     id: 1,
     name: "Goodreads Epilogue",
-    description: "Description of Project 1",
+    description: `• Architected and deployed a full-stack Django/Daphne application with a React frontend, integrating asynchronous WebSocket pipelines (Django Channels + Redis) for real-time processing updates, along with a multiprocessing scraper built using Selenium. \n
+
+        • Built a RAG-based classification system using pgvector and LangChain to assign literary archetypes from user reading history, and implemented topic modeling (FASTopic) to extract and hierarchically cluster themes across thousands of book entries, validated with LLM-as-judge evaluation. \n
+
+        • Deployed end-to-end on AWS EC2 with Caddy and Cloudflare for SSL/reverse proxy, migrating LLM inference from local Ollama/Mistral to OpenRouter's API for cost-efficient production serving.`,
     image: "/projects/GoodreadsEpilogue.png",
     tags: ["Python", "Django", "React", "PostgreSQL", "Docker", "AWS"],
     demoLink: "https://goodreadsepilogue.com/",
-    videoLink: "https://youtu.be/your-video-id",
-    githubLink: "https://github.com/sonashine/Goodreads-Epilogue",
   },
   {
     id: 2,

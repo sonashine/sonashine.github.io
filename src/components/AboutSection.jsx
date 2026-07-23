@@ -20,7 +20,7 @@ export const AboutSection = () => {
                         I'd rather understand why something works than just know that it does, which probably explains why I keep ending up back in a notebook even after the deployment is done.
                     </p>
                     <p className="text-muted-foreground">
-                        Outside of engineering, I run a small no-face YouTube channel on travel, tech, and books, tinker with Arduino, and I'm slowly working through a 30-before-30 list that's taken me backpacking across Southeast Asia. I'm currently pursuing the AWS Certified Machine Learning Engineer certification and exploring ML Engineer and Cloud Engineer roles in Australia and Germany.
+                        Outside of engineering, I love reading, tinkering with Arduino, and I'm slowly working through a 30-before-30 list that's taken me backpacking across Southeast Asia. I'm currently pursuing the AWS Certified Machine Learning Engineer certification and exploring ML Engineer and Cloud Engineer roles in Australia and Germany.
                     </p>
                     <div className="mt-8">
                     <p className="text-muted-foreground mb-4">
@@ -37,7 +37,7 @@ export const AboutSection = () => {
                         </li>
                         <li className="flex items-center gap-2">
                         <span className="text-primary">▹</span>
-                        <span>Scikit-learn</span>
+                        <span>Langchain</span>
                         </li>
                         <li className="flex items-center gap-2">
                         <span className="text-primary">▹</span>
