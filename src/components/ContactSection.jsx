@@ -90,7 +90,7 @@ export const ContactSection = () => {
 
               <div className="flex space-x-4">
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/sonakshisharma1298/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 rounded-full bg-primary/10 hover:bg-primary/20 transition-colors"
