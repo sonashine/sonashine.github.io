@@ -3,9 +3,15 @@ import { cn } from "@/lib/utils";
 const posts = [
   {
     title: "Introducing: Goodreads Epilogue",
-    excerpt: " The your year in reading you deserve",
+    excerpt: "The your year in reading you deserve",
     date: "Aug 2026",
     href: "https://medium.com/@booksbytesbackpacking/introducing-goodreads-epilogue-the-your-year-in-reading-you-deserve-b1f8ffd679b7",
+  },
+  {
+    title: "Multiprocessing with Selenium | How I reduced my webscraping time by 45%",
+    excerpt: " How to speed up your web scraping | how multiprocessing is different from multithreading",
+    date: "Sep 2026",
+    href: "https://medium.com/@booksbytesbackpacking/multiprocessing-with-selenium-how-i-reduced-my-webscraping-time-by-45-85e43102d3ff",
   }
 ];
 
