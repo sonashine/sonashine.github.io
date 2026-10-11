@@ -9,7 +9,7 @@ const projects = [
     description:
     "Decoded which of 8 object categories a person was viewing from ventral temporal cortex activity (73.3% vs 12.5% chance), using leave-one-run-out cross-validation, baselines and permutation testing.",
   tags: ["Python", "scikit-learn", "nilearn", "Neuroscience", "Cross-validation"],
-  image: "/images/projects/lr_weights_grid.png",
+  image: "/projects/lr_weights_grid.png",
   githubLink: "https://github.com/sonashine/cortex-decoder",
   },
   {
