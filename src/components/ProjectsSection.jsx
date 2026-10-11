@@ -5,6 +5,15 @@ import { Link } from "react-router-dom";
 const projects = [
   {
     id: 1,
+    name: "cortex-decoder:Decoding Visual Object Categories from fMRI",
+    description:
+    "Decoded which of 8 object categories a person was viewing from ventral temporal cortex activity (73.3% vs 12.5% chance), using leave-one-run-out cross-validation, baselines and permutation testing.",
+  tags: ["Python", "scikit-learn", "nilearn", "Neuroscience", "Cross-validation"],
+  image: "/images/projects/lr_weights_grid.png",
+  githubLink: "https://github.com/sonashine/cortex-decoder",
+  },
+  {
+    id: 2,
     name: "Goodreads Epilogue",
     description: `• Architected and deployed a full-stack Django/Daphne application with a React frontend, integrating asynchronous WebSocket pipelines (Django Channels + Redis) for real-time processing updates, along with a multiprocessing scraper built using Selenium. \n
 
@@ -16,7 +25,7 @@ const projects = [
     demoLink: "https://goodreadsepilogue.com/",
   },
   {
-    id: 2,
+    id: 3,
     name: "Matchy-Matchy",
     description:
       "Interactive shape-matching arcade game built with Processing (Java). Designed game mechanics including shape morphing, projectile matching, collision detection, scoring, and game-over states. Awarded 100% (1st out of 331 students).",
@@ -30,7 +39,7 @@ const projects = [
     githubLink: "https://github.com/sonashine/Matchy-Matchy-2.0",
   },
   {
-    id: 3,
+    id: 4,
     name: "Bank Loan Approval Prediction",
     description:
       "Built and trained a multi-layer artificial neural network using TensorFlow/Keras to classify loan applications. Achieved 97% classification accuracy and evaluated model performance using precision, recall, F1 score, and confusion matrices.",
@@ -40,7 +49,7 @@ const projects = [
     githubLink: "https://github.com/sonashine/Bank-Loan-Approval-Using-Artificial-Neural-Networks",
   },
   {
-    id: 4,
+    id: 5,
     name: "Tesla Stock Forecasting Pipeline",
     description:
       "Developed a reusable machine learning pipeline using Scikit-learn with automated data ingestion, feature engineering, preprocessing, model training, and evaluation for time-series stock forecasting.",
@@ -50,7 +59,7 @@ const projects = [
     githubLink: "https://github.com/sonashine/Stock-Prices-predictor",
   },
     {
-    id: 5,
+    id: 6,
     name: "Matchy-Matchy 2.0",
     description:
       "Enhanced version of the original Matchy-Matchy arcade game rebuilt for the web using React and p5.js. Features interactive gameplay, shape matching mechanics, real-time animation, and browser-based deployment.",
